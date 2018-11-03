@@ -1,0 +1,65 @@
+
+body{
+	background: #000000;
+	color: lightgray;
+	font-size: 28px;
+}
+
+#main{
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto; 
+	
+
+}
+
+#watchword{
+	font-size: 48px;
+	width: 1000px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+	color: lightgray;
+	min-height: 60px;
+}
+
+#hangman{
+	float:left;
+	width: 500px;
+	text-align: center;
+	min-height: 280px;
+}
+
+#letters{
+	float:left; 
+	width: 500px;
+	text-align: center;
+	min-height: 280px;
+}
+
+.oneLetter{
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	margin: 5px;
+	padding: 5px;
+	border:3px solid gray;
+	float:left;
+	border-radius: 10px;
+	cursor: pointer;
+
+}
+
+.oneLetter:hover{
+	background-color: #222222;
+	border-color: white;
+}
+
+.reset{
+	color:#00CC00;
+	cursor: pointer;
+}
+
+.reset:hover{
+	color:white;
+}
